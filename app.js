@@ -18,6 +18,7 @@ const convert = ({data=''}) => {
         let main = filterData.length;
         let input = 0;
         for (let i = 0; i < filterData.length ; i++) {
+            console.log(typeof filterData[i])
             input = input + Math.pow(10, (main-1)) * filterData[i];
             main--
         }
