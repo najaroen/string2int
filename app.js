@@ -1,10 +1,10 @@
 
 
-const convert = ({data=''}) => {
-    if(!data) {
+const convert = ({val=''}) => {
+    if(!val) {
         return null
     } else {
-        let value = 'sadas3rfdrg1';
+        let value = val;
         let newValue = value.split('');
         let data =[];
         const numSet = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -26,4 +26,4 @@ const convert = ({data=''}) => {
     }
 }
 
-console.log(convert({data: 'dsada2dsd33'}));
+console.log(convert({val: 'dsada2dsd33'}));
